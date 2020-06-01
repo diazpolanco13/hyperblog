@@ -1,4 +1,8 @@
 body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
     margin: 0;
 }
 .header {
@@ -32,4 +36,19 @@ body {
 }
 #p3 {
     color: rgb(243, 2, 2);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: violet;
+    height: 100px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer h3 {
+    margin: 0;
 }
