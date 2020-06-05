@@ -27,6 +27,7 @@ body {
 
 .blog {
     padding: 30px;
+    width: 60%;
 }
 #p1 {
     color: rgb(243, 199, 2);
@@ -36,6 +37,19 @@ body {
 }
 #p3 {
     color: rgb(243, 2, 2);
+}
+.container {
+    display: flex;
+}
+.image {
+    position: relative;
+    width: 35%;
+    margin: 30px;
+}
+.image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .footer {
